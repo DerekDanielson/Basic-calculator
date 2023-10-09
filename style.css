@@ -49,6 +49,7 @@ button:hover {
     color: #fff;
 }
 
-.number {
-    
+.number, .decimal {
+    background-color: #fff;
+    color: #333;
 }
