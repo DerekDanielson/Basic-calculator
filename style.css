@@ -60,5 +60,7 @@ button:hover {
 }
 
 .equals {
-    
+    background-color: #01ff70;
+    color: #fff;
+    grid-row: span 3;
 }
