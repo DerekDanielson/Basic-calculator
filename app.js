@@ -21,11 +21,11 @@ for (let i = 0; i < buttonsEl.length; i++){
 };
 
 function clearResult(){
-    resultEl.value = '';    
+    inputFieldEl.value = '';    
 };
 
 function calculateResult(){
-
+    inputFieldEl.value = eval(inputFieldEl.value);
 };
 
 function appendValue(buttonValue){
